@@ -3,13 +3,16 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start"
+    "start": "./node_modules/react-native-cli/index.js start",
+    "ios": "./node_modules/react-native-cli/index.js run-ios",
+    "android": "./node_modules/react-native-cli/index.js run-android"
   },
   "dependencies": {
     "fluxible": "^1.1.0",
     "fluxible-addons-react": "^0.2.8",
     "fluxible-reducer-store": "^0.1.0",
     "react": "^15.1.0",
-    "react-native": "^0.27.0-rc2"
+    "react-native": "^0.27.0-rc2",
+    "react-native-cli": "^0.2.0"
   }
 }
