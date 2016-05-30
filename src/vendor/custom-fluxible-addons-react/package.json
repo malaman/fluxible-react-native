@@ -1,0 +1,101 @@
+{
+  "_args": [
+    [
+      "fluxible-addons-react",
+      "/Volumes/Dev/github/my/fluxible-react-native"
+    ]
+  ],
+  "_from": "fluxible-addons-react@latest",
+  "_id": "fluxible-addons-react@0.2.8",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/fluxible-addons-react",
+  "_nodeVersion": "5.7.1",
+  "_npmOperationalInternal": {
+    "host": "packages-13-west.internal.npmjs.com",
+    "tmp": "tmp/fluxible-addons-react-0.2.8.tgz_1458692366326_0.2794420844875276"
+  },
+  "_npmUser": {
+    "email": "mcridgway@gmail.com",
+    "name": "mridgway"
+  },
+  "_npmVersion": "3.6.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "fluxible-addons-react",
+    "raw": "fluxible-addons-react",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/fluxible-addons-react/-/fluxible-addons-react-0.2.8.tgz",
+  "_shasum": "7877916bb13db7f78c563e257a8ba71b07327b25",
+  "_shrinkwrap": null,
+  "_spec": "fluxible-addons-react",
+  "_where": "/Volumes/Dev/github/my/fluxible-react-native",
+  "author": {
+    "email": "mridgway@yahoo-inc.com",
+    "name": "Michael Ridgway"
+  },
+  "bugs": {
+    "url": "https://github.com/yahoo/fluxible/issues"
+  },
+  "dependencies": {
+    "hoist-non-react-statics": "^1.0.4",
+    "inherits": "^2.0.1"
+  },
+  "description": "Fluxible addons for use with React",
+  "devDependencies": {
+    "fluxible": ">=1.0.0",
+    "react": "^15.0.0-rc.1",
+    "react-dom": "^15.0.0-rc.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "7877916bb13db7f78c563e257a8ba71b07327b25",
+    "tarball": "https://registry.npmjs.org/fluxible-addons-react/-/fluxible-addons-react-0.2.8.tgz"
+  },
+  "homepage": "https://github.com/yahoo/fluxible#readme",
+  "license": "BSD-3-Clause",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "mcridgway@gmail.com",
+      "name": "mridgway"
+    },
+    {
+      "email": "seth@bertalotto.net",
+      "name": "redonkulus"
+    },
+    {
+      "email": "r@jiv.me",
+      "name": "vijar"
+    },
+    {
+      "email": "lingyan.zhu@gmail.com",
+      "name": "lingyan"
+    }
+  ],
+  "name": "fluxible-addons-react",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "fluxible": ">=1.0.0",
+    "react": "^0.14.0 || ^15.0.0-rc.1",
+    "react-dom": "^0.14.0 || ^15.0.0-rc.1"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yahoo/fluxible.git"
+  },
+  "scripts": {
+    "cover": "../../node_modules/.bin/istanbul cover --dir artifacts -- ../../node_modules/.bin/_mocha tests/unit/ --recursive --compilers js:babel-register --reporter spec",
+    "lint": "../../node_modules/.bin/eslint *.js tests/",
+    "test": "../../node_modules/.bin/mocha tests/unit/ --recursive --compilers js:babel-register --reporter spec"
+  },
+  "version": "0.2.8"
+}
