@@ -3,8 +3,9 @@ import React, {PropTypes, Component} from 'react';
 import {Text, View, StyleSheet, TouchableOpacity} from 'react-native';
 import Fluxible from 'fluxible';
 import IncrementStore from './stores/incrementStore';
-// native fluxible-addons-react package does not word due to batchedUpdatePlugin export
-import {connectToStores, provideContext} from './vendor/custom-fluxible-addons-react';
+// it is important to import connectToStores and provideContext in this way to avoid conflicts with batchedUpdatePlugin
+import connectToStores from 'fluxible-addons-react/connectToStores';
+import provideContext from 'fluxible-addons-react/provideContext';
 import {increment, decrement} from './actions/incrementActions';
 
 
