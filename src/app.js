@@ -26,9 +26,6 @@ const styles = StyleSheet.create({
         width: 50,
         textAlign: 'center'
     },
-    info: {
-        flex: 1
-    },
     counter: {
         height: 50,
         flexDirection: 'row'
@@ -69,7 +66,7 @@ class App extends Component {
                             -
                         </Text>
                     </TouchableOpacity>
-                        <Text style={styles.info}>
+                        <Text>
                             Counter: {this.props.count}
                         </Text>
                     <TouchableOpacity onPress={this.handleIncBtnClick}>
