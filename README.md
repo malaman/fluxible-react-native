@@ -14,6 +14,6 @@ Simple example of integration [React Native](https://github.com/facebook/react-n
 ### Android
 
 1. Follow React-Native [Getting Started](https://facebook.github.io/react-native/docs/getting-started.html) guide for Android
-2. Close repository
+2. Clone repository
 3. Execute `npm install` in  `fluxible-react-native` directory
 4. Execute `npm run android` in  `fluxible-react-native` directory
