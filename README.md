@@ -6,9 +6,10 @@ Simple example of integration [React Native](https://github.com/facebook/react-n
 ### IOS
 
 1. Install Xcode
-2. Clone repository 
-3. Execute `npm install` in  `fluxible-react-native` directory
-4. Execute `npm run ios` in  `fluxible-react-native` directory 
+2. Execute `sudo xcode-select -s /Applications/Xcode.app` command
+3. Clone repository 
+4. Execute `npm install` in  `fluxible-react-native` directory
+5. Execute `npm run ios` in  `fluxible-react-native` directory 
 
 
 ### Android
